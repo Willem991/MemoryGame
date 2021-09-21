@@ -4,8 +4,8 @@ import './comp.css'
 const Card = (props) => {
 
     return(
-        <div id = 'card' >
-            <img src = {props.imgsrc}></img>
+        <div id = 'card' onClick = {props.changeButton}>
+            <img alt = 'Dofus Character' src = {props.imgsrc}></img>
             <p>{props.name}</p>
         </div>
     )
