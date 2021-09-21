@@ -1,0 +1,44 @@
+
+#TopHeading{
+    display: grid;
+
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: auto auto;
+    background-color: rgb(131, 192, 131);
+    height: 300px;
+}
+
+.Titleimage1{
+    display: grid;
+
+    grid-column-start: 2;
+    grid-row-start: 1;
+
+    align-self: center;
+    justify-self: center;
+}
+
+.Titleimage2{
+    display: flex;
+
+    grid-column-start: 2;
+    grid-row-start: 2;
+
+    align-self: center;
+    justify-self: center;
+
+}
+
+.Titleimage3{
+    display: flex;
+
+    grid-column-start: 1;
+    grid-row-start: 1;
+
+    align-self: center;
+    justify-self: right;
+
+    margin-left: 50px;
+
+    justify-self: flex-start;
+}
