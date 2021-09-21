@@ -7,10 +7,14 @@ const App = () => {
 
 const [menuDisplay, setMenuDisplay] = useState(true);
 
+const initializeGame = () => {
+  setMenuDisplay(false);
+};
+
   return(
     <div>
       <TopHeading></TopHeading>
-      {(menuDisplay) ? <MainMenu></MainMenu> : <Game></Game>}
+      {(menuDisplay) ? <MainMenu startGame = {initializeGame}></MainMenu> : <Game></Game>}
     </div>
   );
 }; 

@@ -3,7 +3,12 @@ import React, {useState} from "react";
 const MainMenu = (props) => {
 
     return(
-        <div>Main Menu</div>
+        <div>
+            <p>
+                Would you Like to Start a new game?
+            </p>
+            <button onClick = {props.startGame} id = "strtBtn">Start</button>
+        </div>
     );
 };
 

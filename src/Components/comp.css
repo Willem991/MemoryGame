@@ -6,6 +6,8 @@
     grid-template-rows: auto auto;
     background-color: rgb(131, 192, 131);
     height: 300px;
+
+    border-bottom: solid;
 }
 
 .Titleimage1{
@@ -41,4 +43,20 @@
     margin-left: 50px;
 
     justify-self: flex-start;
+}
+
+#card{
+    display: grid;
+
+    grid-template-rows: 400px 100px;
+
+    width: 200px;
+    height: 500px;
+}
+
+#GamePage{
+    display: grid;
+
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(2, auto);
 }

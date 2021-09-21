@@ -2,7 +2,7 @@ import React from "react";
 import TitleImage from './Images/TitleBG.png'
 import TitleImage2 from './Images/TitleMG.png'
 import TitleImage3 from './Images/TitleCG.png'
-import './heade.css'; 
+import './comp.css'; 
 
 const TopHeading = () => {
 
