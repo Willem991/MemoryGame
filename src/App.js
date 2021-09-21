@@ -25,6 +25,7 @@ const App = () => {
   const [buttonClick, setButtonClick] = useState(false);
   const [name, setName] = useState('');
   const [memory, setMemory] = useState([]);
+  const [message, setMessage] = useState('');
 
   const changeState = (aName) => {
     setButtonClick(!buttonClick);
@@ -49,6 +50,8 @@ const App = () => {
     setMenuDisplay(false);
     setMemory([]);
     setName('');
+    setScore(0);
+    setButtonClick(false);
   };
 
   const shuffleArray = () => {
@@ -76,13 +79,12 @@ const App = () => {
 
   useEffect(() => {
     if(buttonClick){
-      console.log(check);
   
-        for (let index = 0; index < memory.length; index++) {
-          if(name === memory[index]){
-            check = false;
-          };
+      for (let index = 0; index < memory.length; index++) {
+        if(name === memory[index]){
+          check = false;
         };
+      };
 
       if(check){
         let mem = memory;
@@ -92,16 +94,25 @@ const App = () => {
         shuffleArray();
         updateScore();
         setButtonClick(false);
+        if(memory.length === 12){
+          setMessage('Congratulations! You have won!');
+          setMenuDisplay(true);
+        };
       }else{
+        setMessage("You've Lost!")
         setMenuDisplay(true);
       }
+
+
     }
   });
 
   return(
-    <div>
-      <TopHeading></TopHeading>
-      {(menuDisplay) ? <MainMenu startGame = {initializeGame}></MainMenu> : <Game CharacterArray = {displayArray}></Game>}
+    <div id='maindiv'>
+      <TopHeading score = {score}></TopHeading>
+      <div id='Background'>
+        {(menuDisplay) ? <MainMenu message = {message} startGame = {initializeGame}></MainMenu> : <Game CharacterArray = {displayArray}></Game>}
+      </div>
     </div>
   );
 }; 

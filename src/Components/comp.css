@@ -21,7 +21,7 @@
 }
 
 .Titleimage2{
-    display: flex;
+    display: grid;
 
     grid-column-start: 2;
     grid-row-start: 2;
@@ -32,7 +32,7 @@
 }
 
 .Titleimage3{
-    display: flex;
+    display: grid;
 
     grid-column-start: 1;
     grid-row-start: 1;
@@ -43,6 +43,19 @@
     margin-left: 50px;
 
     justify-self: flex-start;
+}
+
+#Score{
+    display: grid;
+
+    grid-column-start: 3;
+    grid-row-start: 1;
+
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+
+    font-size: 50px;
 }
 
 #card{
@@ -60,6 +73,8 @@
 
     width: 250px;
     height: 400px;
+
+    background-color: white;
 }
 
 #card:hover{
@@ -71,4 +86,16 @@
 
     grid-template-columns: repeat(6, auto);
     grid-template-rows: repeat(2, auto);
+}
+
+#strtBtn{
+    background-image: url('./Images/button.png');
+    font-size: 20px;
+    padding-top: 160px;
+    width: 200px;
+    height: 200px;
+}
+
+#newGameMessage{
+    margin-top: 0px;
 }
