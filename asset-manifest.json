@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/MemoryGame%20%20/static/css/main.c8727476.chunk.css",
+    "main.js": "/MemoryGame%20%20/static/js/main.289bbe69.chunk.js",
+    "main.js.map": "/MemoryGame%20%20/static/js/main.289bbe69.chunk.js.map",
+    "runtime-main.js": "/MemoryGame%20%20/static/js/runtime-main.9ceadffa.js",
+    "runtime-main.js.map": "/MemoryGame%20%20/static/js/runtime-main.9ceadffa.js.map",
+    "static/js/2.97043404.chunk.js": "/MemoryGame%20%20/static/js/2.97043404.chunk.js",
+    "static/js/2.97043404.chunk.js.map": "/MemoryGame%20%20/static/js/2.97043404.chunk.js.map",
+    "index.html": "/MemoryGame%20%20/index.html",
+    "static/css/main.c8727476.chunk.css.map": "/MemoryGame%20%20/static/css/main.c8727476.chunk.css.map",
+    "static/js/2.97043404.chunk.js.LICENSE.txt": "/MemoryGame%20%20/static/js/2.97043404.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/MemoryGame%20%20/static/media/Background.96e48a0d.jpg",
+    "static/media/Cra.7ad5b103.webp": "/MemoryGame%20%20/static/media/Cra.7ad5b103.webp",
+    "static/media/Ecaflip.f84b5c36.webp": "/MemoryGame%20%20/static/media/Ecaflip.f84b5c36.webp",
+    "static/media/Eliotrope.0c198da1.webp": "/MemoryGame%20%20/static/media/Eliotrope.0c198da1.webp",
+    "static/media/Eniripsa.3ac76389.webp": "/MemoryGame%20%20/static/media/Eniripsa.3ac76389.webp",
+    "static/media/Enutrof.a437de68.webp": "/MemoryGame%20%20/static/media/Enutrof.a437de68.webp",
+    "static/media/Feca.99136476.webp": "/MemoryGame%20%20/static/media/Feca.99136476.webp",
+    "static/media/Foggernaut.524cce3a.webp": "/MemoryGame%20%20/static/media/Foggernaut.524cce3a.webp",
+    "static/media/Huppermage.2a2c34c3.webp": "/MemoryGame%20%20/static/media/Huppermage.2a2c34c3.webp",
+    "static/media/Iop.32d3c2f1.webp": "/MemoryGame%20%20/static/media/Iop.32d3c2f1.webp",
+    "static/media/Osamodas.8efa19e7.webp": "/MemoryGame%20%20/static/media/Osamodas.8efa19e7.webp",
+    "static/media/Sacrier.82df2405.webp": "/MemoryGame%20%20/static/media/Sacrier.82df2405.webp",
+    "static/media/Sram.5ebe9709.webp": "/MemoryGame%20%20/static/media/Sram.5ebe9709.webp",
+    "static/media/TitleBG.ddbf75b2.png": "/MemoryGame%20%20/static/media/TitleBG.ddbf75b2.png",
+    "static/media/TitleCG.65a32126.png": "/MemoryGame%20%20/static/media/TitleCG.65a32126.png",
+    "static/media/TitleMG.ba059100.png": "/MemoryGame%20%20/static/media/TitleMG.ba059100.png",
+    "static/media/comp.css": "/MemoryGame%20%20/static/media/button.8a4dfb5c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ceadffa.js",
+    "static/js/2.97043404.chunk.js",
+    "static/css/main.c8727476.chunk.css",
+    "static/js/main.289bbe69.chunk.js"
+  ]
+}
