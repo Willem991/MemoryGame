@@ -5,7 +5,7 @@ import "./comp.css"
 const MainMenu = (props) => {
 
     return(
-        <div id = 'maindiv'>
+        <div id = 'mainMenu'>
             <p>{props.message}</p>
             <p id='newGameMessage'>
                 Would you like to Start a new game?

@@ -10,6 +10,15 @@
     border-bottom: solid;
 }
 
+#mainMenu{
+    display: grid;
+
+    grid-template-rows: 30px 30px auto;
+
+    justify-items: center;
+    align-items: center;
+}
+
 .Titleimage1{
     display: grid;
 
